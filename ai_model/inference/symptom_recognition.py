@@ -427,7 +427,7 @@ if __name__ == "__main__":
     symptoms = recognizer.recognize(test_text)
     print("识别出的症状:")
     for symptom in symptoms:
-        print(f"- {symptom['name']} (置信度: {symptom['confidence']})")
+        print(f"- {symptom['name']} (置信度: {symptom['confidence']}")
     
     # 初始化问题生成器
     generator = QuestionGenerator()
